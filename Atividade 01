@@ -17,7 +17,7 @@ class HelloWorld {
          segundoValor = scanner.nextInt();
          
          
-         System.out.println("Informe o Segundo Valor");
+         System.out.println("Informe o Terceiro Valor");
          terceiroValor = scanner.nextInt();
          
          int total = primeiroValor + segundoValor + terceiroValor;
