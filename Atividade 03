@@ -3,21 +3,21 @@ import java.util.Scanner;
 class HelloWorld {
     public static void main(String[] args) {
         
-        int primeiroNota = 0;
-        int segundoNota = 0;
+        int primeiraNota = 0;
+        int segundaNota = 0;
        
       
       Scanner scanner = new Scanner (System.in);
       
       
         System.out.println("Informe a Primeira Nota");
-         primeiroNota = scanner.nextInt();
+         primeiraNota = scanner.nextInt();
          
          System.out.println("Informe a Segunda Nota");
-         segundoNota = scanner.nextInt();
+         segundaNota = scanner.nextInt();
          
          
-         int total = primeiroNota + segundoNota / 2;
+         int total = primeiraNota + segundaNota / 2;
          
          System.out.println("Valor Total: " + total);
       
