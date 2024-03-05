@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+class HelloWorld {
+    public static void main(String[] args) {
+        
+        int primeiroNota = 0;
+        int segundoNota = 0;
+       
+      
+      Scanner scanner = new Scanner (System.in);
+      
+      
+        System.out.println("Informe a Primeira Nota");
+         primeiroNota = scanner.nextInt();
+         
+         System.out.println("Informe a Segunda Nota");
+         segundoNota = scanner.nextInt();
+         
+         
+         int total = primeiroNota + segundoNota / 2;
+         
+         System.out.println("Valor Total: " + total);
+      
+         
+          }
+}
