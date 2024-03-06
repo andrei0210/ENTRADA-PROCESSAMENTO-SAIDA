@@ -17,7 +17,7 @@ class HelloWorld {
          segundaNota = scanner.nextInt();
          
          
-         int total = primeiraNota + segundaNota / 2;
+         int total = (primeiraNota + segundaNota) / 2;
          
          System.out.println("Valor Total: " + total);
       
