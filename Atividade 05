@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+class HelloWorld {
+    public static void main(String[] args) {
+        
+        int valor1 = 0;
+        int valor2 = 0;
+       
+      
+      Scanner scanner = new Scanner (System.in);
+      
+      
+        System.out.println("Informe o Primeiro Valor");
+         valor1 = scanner.nextInt();
+         
+         System.out.println("Informe o Segundo Valor");
+         valor2 = scanner.nextInt();
+         
+         
+         int soma = valor1 + valor2 ;
+         int subtracao = valor1 - valor2 ;
+         int divisao = valor1 % valor2 ;
+         int multiplicacao = valor1 * valor2 ;
+         
+         System.out.println("Valor Total: " + soma);
+          System.out.println("Valor Total: " + subtracao);
+           System.out.println("Valor Total: " + divisao);
+            System.out.println("Valor Total: " + multiplicacao);
+      
+         
+          }
+}
