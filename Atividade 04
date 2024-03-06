@@ -1,0 +1,35 @@
+import java.util.Scanner;
+
+class HelloWorld {
+    public static void main(String[] args) {
+        
+        int primeiraNota = 0;
+        int segundaNota = 0;
+        int terceiraNota = 0;
+        int quartaNota = 0;
+       
+       
+      
+      Scanner scanner = new Scanner (System.in);
+      
+      
+        System.out.println("Informe a Primeira Nota");
+         primeiraNota = scanner.nextInt();
+         
+         System.out.println("Informe a Segunda Nota");
+         segundaNota = scanner.nextInt();
+         
+         System.out.println("Informe a Terceira Nota");
+         terceiraNota = scanner.nextInt();
+         
+         System.out.println("Informe a Quarta Nota");
+         quartaNota = scanner.nextInt();
+         
+         
+         int total = primeiraNota + segundaNota + terceiraNota + quartaNota % 4;
+         
+         System.out.println("Valor Total: " + total);
+      
+         
+          }
+}
