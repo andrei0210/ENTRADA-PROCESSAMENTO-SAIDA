@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+class HelloWorld {
+    public static void main(String[] args) {
+        
+        String nome;
+        int valor = 0;
+        double desconto =0;
+       
+      
+      Scanner scanner = new Scanner (System.in);
+      
+      
+        System.out.println("Informe o  Nome do Produto");
+         nome = scanner.next();
+         
+         System.out.println("Informe o Valor");
+         valor = scanner.nextInt();
+         
+         System.out.println("Informe Desconto");
+         desconto = scanner.nextDouble();
+         
+          double total =  valor - desconto;
+        
+         
+         System.out.println("Seu Nome e: " + nome);
+         System.out.println("Novo Preco: " + total);
+          
+      
+         
+          }
+}
