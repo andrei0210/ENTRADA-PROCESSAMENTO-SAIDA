@@ -19,7 +19,7 @@ class HelloWorld {
          
          int soma = valor1 + valor2 ;
          int subtracao = valor1 - valor2 ;
-         int divisao = valor1 % valor2 ;
+         int divisao = valor1 / valor2 ;
          int multiplicacao = valor1 * valor2 ;
          
          System.out.println("Valor Total: " + soma);
